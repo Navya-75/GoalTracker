@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🎯 Daily Goal Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="tracker-container">
+    <h1>🎯 Daily Goal Tracker</h1>
+    <input type="text" id="goal-input" placeholder="Enter a goal..." />
+    <button onclick="addGoal()">Add Goal</button>
+    <ul id="goal-list"></ul>
+
+    <div class="progress-bar-container">
+      <div id="progress-bar" class="progress-bar"></div>
+    </div>
+    <p id="progress-text">Progress: 0%</p>
+    <p id="complete-message" class="hidden">🎉 You completed all goals!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
